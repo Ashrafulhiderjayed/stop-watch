@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(47, 88, 88);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    color: LightCyan;
+}
+
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.btn{
+    
+    margin: 0px 15px;
+    padding: 7px 25px;
+    color: white;
+    font-weight: bold;
+}
+
+#start{
+    background-color: #1abc9c;
+}
+
+#stop{
+    background-color: #3498db;
+}
+#reset{
+    background-color: Crimson;
+}
